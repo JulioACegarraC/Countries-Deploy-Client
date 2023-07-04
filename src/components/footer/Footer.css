@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.imagen-inicio{
+  background-image: url("https://static01.nyt.com/images/2021/04/19/travel/02TravelAgent-illo/02TrippedUp-illo-articleLarge.jpg?quality=75&auto=webp&disable=upscale");
+  background-size:cover;
+  position:bottom;
+  width: 200px;
+  height: 15vh;
+}
+.imagen-final{
+  background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/eN8iLQaZkocA20PNrLCnnQ/258s.jpg");
+  background-size:cover;
+  position:bottom;
+  position: right;
+  width: 200px;
+  height: 15vh;
+}
+.footer{
+  background-color: #087E8B;
+  position:bottom;
+  position:right;
+  align-self: baseline;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.foot {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  .foot * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+  
+  .foot li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .0em 1em;
+    padding: 0;
+  }
+  
+  .foot li {
+    padding: .5em li8em;
+    color: #3c3c3c;
+    text-emphasis-style: bold;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .foot li::before,
+  .foot li::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+  
+  .foot li::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #ff5a5f;
+    border-right: 3px solid #ff5a5f;
+    transform: translate(-100%, 50%);
+  }
+  
+  .foot li:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #ff5a5f;
+    border-left: 3px solid #ff5a5f;
+    transform: translate(100%, -50%)
+  }
+  
+  .foot li:hover:before,
+  .foot li:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  
+  .foot li:hover {
+    color: #ff5a5f;
+  }
+  @media (width < 1800px) {
+    .footer .imagen-final{
+      display: none;
+    }
+  }
+  @media (width < 1500px) {
+    .footer .imagen-inicio{
+      display: none;
+    }
+  }

@@ -1,0 +1,198 @@
+.create-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    /* background-image: url('https://fondosmil.com/fondo/23183.jpg'); */
+}
+.create-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+.create-form button {
+    width:200px;
+    height: 80px;
+    color: #3c3c3c;
+    border-radius: 5px;
+    border:1px solid #3c3c3c;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #ff5a5f;
+    cursor: pointer;
+    transition: border-color 0.30s ease-in-out;
+}
+.create-text-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    min-height: 200px;
+    margin: 10px;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.inputs {
+    
+    background-color: #ff5a5f;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    min-height: 150px;
+}
+.inputs label {
+    width:200px;
+    height: 30px;
+    background-color: #ff5a5f;
+    border:1px solid #3c3c3c;
+      border-radius:3px;
+    text-align:center;
+      font-weight:bold;
+      color: #3c3c3c;
+    display:inline-block;
+}
+.inputs input {
+    width:250px;
+    height: 30px;
+      padding:3px 10px;
+      border:1px solid #3c3c3c;
+      border-radius:3px;
+      background-color:#ff5a5f;
+      margin:8px;
+      display:inline-block;
+}
+.inputs input::placeholder{
+    color: aliceblue;
+    text-align: center;
+}
+
+.paises {
+    margin: 10 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+}
+.paises-container {
+    background-color:#ff5a5f ;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWsWrU5YFKKA4sMm78i-W5gDiHq1mHauKpQ&usqp=CAU');
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.paises-container label {
+    color: #3c3c3c;
+    font-weight:bold;
+}
+.p-paises {
+    background-color:#ff5a5f ;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding-top: 15px;
+}
+.create-modal-creada {
+    background-color: rgba(67, 221, 93, 0.849);
+    text-align: center;
+    padding-top: 30px;
+    position: fixed;
+    border-radius: 15px;
+    border: black;
+    border-style: double;
+    top: 5%;
+    left: 25%;
+    height: 30vh;
+    width: 50vw;
+    transition: all .5s;
+  }
+  
+  .create-modal-creada p {
+    width: 60%;
+    height: 40%;
+    color: #f5f5f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .create-modal-creada button {
+    width:150px;
+    height: 40px;
+    color: #f5f5f5;
+    border-radius: 5px;
+    border:1px solid #f5f5f5;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #3c3c3c;
+    cursor: pointer;
+    transition: border-color 0.30s ease-in-out;
+  }
+
+  .create-modal-error {
+    background: rgba(245, 53, 53, 9);
+    text-align: center;
+    padding-top: 30px;
+    position: fixed;
+    border-radius: 15px;
+    border: black;
+    border-style: double;
+    top: 5%;
+    left: 25%;
+    height: 30vh;
+    width: 50vw;
+    transition: all .5s;
+  }
+  
+  .create-modal-error p {
+    width: 60%;
+    height: 40%;
+    color: #f5f5f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .create-modal-error button {
+    width:150px;
+    height: 40px;
+    color: #f5f5f5;
+    border-radius: 5px;
+    border:1px solid #f5f5f5;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #3c3c3c;
+    cursor: pointer;
+    transition: border-color 0.30s ease-in-out;
+  }
+
+  .flag{
+    width: 70px;
+    height: 50px;
+  }
+  .paises-container input {
+    height: 20px;
+    width: 20px;
+    
+  }
+
+

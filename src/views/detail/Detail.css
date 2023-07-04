@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+.detail-nav{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.detail-container {
+  min-height: 54vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1839f;
+  margin: 10px;
+}
+.detail-container h1 {
+  margin-bottom: 60px;
+}
